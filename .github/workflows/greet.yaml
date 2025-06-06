@@ -1,0 +1,18 @@
+name: Run Greet Script
+
+on:
+  push:
+    branches: [ main ]
+    
+jobs:
+  greet-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      
+      - name: Make Script Executable
+        run: chmod +x ./greet.sh
+
+      - name: Run Greet Script
+        run: ./greet.sh
