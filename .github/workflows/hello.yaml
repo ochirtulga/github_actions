@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Hello Message
-        run: echo "Hello from GitHub Actions!"
+        run: echo "Hello from Ochirtulga's GitHub Actions!"
