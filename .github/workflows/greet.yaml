@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Make Script Executable
-        run: chmod +x ./greet.sh
+        run: chmod +x .greet.sh
 
       - name: Run Greet Script
         run: ./greet.sh
